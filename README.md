@@ -1,2 +1,2 @@
-# admin-panel-deploy
-admin-panel-deploy
+# admin-panel-app
+Панель администратора

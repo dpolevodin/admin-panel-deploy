@@ -1,0 +1,12 @@
+import { themeActionTypes } from "./actions";
+
+const initialState = false;
+
+export const themeReducer = (state = initialState, action) => {
+  switch (action.type) {
+    case themeActionTypes.CHANGE_THEME:
+      return !state;
+    default:
+      return state;
+  }
+};
